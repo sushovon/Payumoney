@@ -29,6 +29,8 @@ public class Main2Activity extends AppCompatActivity {
     private boolean isDisableExitConfirmation = false;
     public static final String TAG = "Dabang : ";
     private AppPreference mAppPreference;
+    int data=0;
+    //payumoney integration
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -80,6 +82,8 @@ public class Main2Activity extends AppCompatActivity {
         String udf8 = "";
         String udf9 = "";
         String udf10 = "";
+
+
 
         AppEnvironment appEnvironment = ((BaseApplication) getApplication()).getAppEnvironment();
         builder.setAmount(String.valueOf(amount))
